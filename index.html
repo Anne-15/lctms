@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css`" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="http://oss.maxcdn.com/semantic-ui/2.1.8/semantic.min.css" />
+    <link rel="stylesheet" type="text/css" href="./semantic/Semantic-UI-CSS-master/semantic.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <style>
+        body,
+        html {
+            font-family: 'Chilanka', cursive;
+            height: 100%;
+        }
+        
+        .parallax {
+            /* The image used */
+            background-image: url('images/build.jpg');
+            /* Full height */
+            height: 100%;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+    <title>MATATU SERVICES</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="topnav">
+            <a href="index.html"> <span class="glyphicon glyphicon-log-in"></span> User Login </a>
+            <a href="index.html"> <span class="glyphicon glyphicon-user"></span> Contact info </a>
+            <a href="index.html"> <span class="glyphicon glyphicon-home"></span> Services</a>
+            <a href="index.html"> <span class="glyphicon glyphicon-home"></span> About</a>
+            <a class="active" href="index.html"> <span class="glyphicon glyphicon-home"></span> Home</a>
+        </div>
+
+        <div class="centered">
+            <h1> <strong>MATATU SERVICES</strong> </h1>
+        </div>
+
+    </div>
+
+
+    <div class="parallax"></div>
+
+    <div style="height:400px;font-size:13px">
+        <div class="row">
+            <div class="col-md-4" style="padding:5px; margin:80px;">
+                <p>Search for your current location and enter your destination</p>
+                <p>You will be directed with an option of various matatu list to choose from</p>
+                <p>The prices are affordable and effective.</p>
+            </div>
+            <div class="col-md-4">
+                <form class="FormSearch" action="index.html" method="post" style="margin:70px; padding:5px; float:right;">
+                    <label for="location">Current Location </label> <br>
+                    <input type="text" name="location" placeholder="Current Location" style="width: 300px; border-radius:5px; height:30px;"> <br> <br>
+                    <label for="destination">Destination </label> <br>
+                    <input type="text" name="destination" placeholder="Destination" style="width: 300px; border-radius:5px; height:30px;"> <br> <br>
+                    <button type="submit" name="searchbutton" style="width: 300px; border-radius:5px;" href="#output">Let's Go!</button>
+                </form>
+                <div id="output">
+                    <!--php output script.-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax" style="width:100%; height:300px; background-image: url('images/yellow.jpg');">
+        </>
+    </div>
+
+    <div style="height:300px;font-size:13px">
+        Scroll Up and Down this page to see the parallax scrolling effect. This div is just here to enable scrolling. Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    </div>
+
+    <div class="parallax" style="width:100%; height:300px; background-image: url('images/wave.jpg');"></div>
+
+    <div style="height:400px;font-size:13px">
+        Scroll Up and Down this page to see the parallax scrolling effect. This div is just here to enable scrolling. Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    </div>
+
+    <div class="parallax"></div>
+
+    <section id="footer" class="text-muted">
+        <address>
+                  <p>
+                      ANNE WARIIYU NDUATI <br>
+                      Email: wariiyuanne@gmail.com
+
+                  </p>
+                  <P><small>All small content of thie page is down here &copy; mini matatu project</small></P>
+                  Facebook <i class="fab fa-facebook icon "></i> 
+                  Instagram <i class="fab fa-instagram icon "></i>
+                  Twitter <i class="fab fa-twitter icon "></i> 
+                  Whatsapp <i class="fab fa-whatsapp icon "></i> <br>
+              </address>
+
+        <section id="copyright ">
+            &copy;
+            <script>
+                document.write(new.Date().getFullYear());
+            </script>
+            Whatever. All rights reserved.
+        </section>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" href="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" href="./js/jquery.js"></script>
+    <script type="text/javascript" href="./js/script.js"></script>
+</body>
+
+</html>
